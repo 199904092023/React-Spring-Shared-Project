@@ -28,11 +28,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Spring Security -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+       
 
         <!-- Spring Data JPA -->
         <dependency>
@@ -82,11 +78,12 @@
         </dependency>
 
         <!-- Lombok (optional) -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <optional>true</optional>
-        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+					<dependency>
+						<groupId>org.projectlombok</groupId>
+						<artifactId>lombok</artifactId>
+						<version>1.18.42</version>
+					</dependency>
 
         <!-- Testing -->
         <dependency>
