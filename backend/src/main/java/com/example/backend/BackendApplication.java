@@ -11,8 +11,6 @@ public class BackendApplication {
 
 	public static void main(String[] args) {
 	ApplicationContext context = SpringApplication.run(BackendApplication.class, args);
-	AuthController authController = context.getBean("AuthController",AuthController.class);
-	authController.add();
 	}
 
 }

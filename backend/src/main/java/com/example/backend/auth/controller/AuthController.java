@@ -1,5 +1,8 @@
 package com.example.backend.auth.controller;
 
-public class AuthController {
+import org.springframework.stereotype.Component;
 
+@Component
+public class AuthController {
+	
 }
